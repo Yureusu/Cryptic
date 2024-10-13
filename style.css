@@ -129,7 +129,6 @@ body{
     #home, #about, #news, #contact{
         font-size: 12px;
         width: auto;
-        margin-top: 6px;
     }
     #home:hover, #about:hover, #news:hover, #contact:hover{
         border-bottom: 2px solid #624E88;
