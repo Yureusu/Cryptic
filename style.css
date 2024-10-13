@@ -1,0 +1,214 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #624E88;
+}
+.header{
+    height: auto;
+    width: 100%;
+    color: #624E88;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    background-color: #CDC1FF;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    margin-top: 12px;
+}
+#logo-img{
+    height: 80px;
+    width: 80px;
+}
+#logo-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    color: #624E88;
+    font-weight: bold;
+    margin-top: 6px;
+}
+#header-space{
+    padding: 12px;
+    flex: 1;
+}
+#home, #about, #news, #contact{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #624E88;
+    width: 100px;
+    text-align: center;
+}
+#contact{
+    margin-right: 36px;
+}
+#home:hover, #about:hover, #news:hover, #contact:hover{
+    border-bottom: 4px solid #624E88;
+    transition: 0.1s ease-in-out;
+}
+.content{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#CDC1FF 60%, #A594F9);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#content-img{
+    height: 500px;
+    width: 500px;
+    margin: 24px;
+}
+#text-wrapper{
+    width: 500px;
+    margin-inline: 24px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#text-wrapper h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #624E88;
+}
+#text-wrapper h3{
+    font-size: 20px;
+    font-weight: normal;
+    color: #624E88;
+    margin-top: -24px;
+    margin-bottom: 24px;
+}
+#read-now{
+    font-size: 20px;
+    font-weight: normal;
+    color: #CDC1FF;
+    background-color: #624E88;
+    padding: 12px;
+    border-radius: 12px;
+    width: 120px;
+    text-align: center;
+}
+#read-now:hover{
+    padding: 14px;
+    transition: 0.3s ease-in-out;
+}
+#open-drop, #close-drop{
+    display: none;
+}
+#drop-nav, #close-nav{
+    display: none;
+}
+/*Latest*/
+.latest-text-wrapper{
+    width: 100%;
+    text-align: center;
+    background-color: #A594F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#latest-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #624E88;
+    width: 80%;
+    padding-block: 24px;
+    border-top: 4px solid #624E88;
+}
+.latest-news{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-image: linear-gradient(#A594F9, #624E88 80%);
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap ;
+    margin-bottom: 48px;
+}
+#news-wrapper{
+    background-color: #CDC1FF;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+#latest-img{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+#writer-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin-top: -6px;
+}
+#writer-wrapper i{
+    font-size: 18px;
+    color: #624E88;
+}
+#latest-writer{
+    font-size: 14px;
+    color: #624E88;
+    font-weight: bold;
+}
+#read-dur{
+    font-size: 12px;
+    font-weight: normal;
+    color: #624E88;
+}
+#latest-title{
+    font-size: 16px;
+    color: #624E88;
+    font-weight: bold;
+    margin-top: -6px;
+    margin-inline: 12px;
+}
+#latest-descrip{
+    font-size: 12px;
+    font-weight: normal;
+    color: #624E88;
+    margin-inline: 12px;
+}
+#more-wrapper{
+    margin-top: -6px;
+    margin-inline: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#read-more{
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #624E88;
+}
+#more-wrapper h3{
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #624E88;
+}

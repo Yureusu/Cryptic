@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@480.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#" id="logo" style="text-decoration: none;">
+                <img src="logo.png" id="logo-img">
+            </a>
+            <a href="#" id="logo-text" style="text-decoration: none;">Cryptic</a>
+            <div id="header-space"></div>
+            <a href="index.html" id="home" style="text-decoration: none;">Home</a>
+            <a href="#" id="news" style="text-decoration: none;">News</a>
+            <a href="#" id="about" style="text-decoration: none;">About</a>
+            <a href="#" id="contact" style="text-decoration: none;">Contact</a>
+            <span onclick="openDrop()" id="open-drop">
+                <i class="fa-solid fa-chevron-down"></i>
+            </span>
+            <span onclick="closeDrop()" id="close-drop">
+                <i class="fa-solid fa-chevron-up"></i>
+            </span>
+        </div>
+        <div id="drop-nav">
+            <a href="index.html" id="drop-home" style="text-decoration: none;">Home</a>
+            <a href="#" id="drop-news" style="text-decoration: none;">News</a>
+            <a href="#" id="drop-about" style="text-decoration: none;">About</a>
+            <a href="#" id="drop-contact" style="text-decoration: none;">Contact</a>
+        </div>
+        <div class="content">
+            <div id="text-wrapper">
+                <h1>Your No.1 Air-Drop Companion</h1>
+                <h3>Explore the best games on Telegram that let you enjoy fun gameplay while earning real cryptocurrency rewards!</h3>
+                <a href="" id="read-now" style="text-decoration: none;">Read More</a>
+            </div>
+            <img src="content-img.png" id="content-img">
+        </div>
+        <div class="latest-text-wrapper">
+            <a id="latest-text" href="#" style="text-decoration: none;">Latest News</a>
+        </div>
+        <div class="latest-news">
+            <div id="news-wrapper">
+                <img id="latest-img" src="meme-land.png">
+                <div id="writer-wrapper">
+                    <i class="fa-solid fa-feather"></i>
+                    <a href="" id="latest-writer" style="text-decoration: none;">Cryptic</a>
+                    <h4 id="read-dur">5 mins read</h4>
+                </div>  
+                <a href="#" id="latest-title" style="text-decoration: none;">Get Ready For The MemeLand Telegram Airdrop!</a>
+                <h3 id="latest-descrip">Exciting news for crypto enthusiasts! The listing date for the highly anticipated $MEME token has been confirmed...</h3>
+                <div id="more-wrapper">
+                    <a href="#" id="read-more" style="text-decoration: none;">Read More</a>
+                    <h3>Sep.20, 2024</h3>
+                </div>
+            </div>
+            <div id="news-wrapper">
+                <img id="latest-img" src="top-tele.png">
+                <div id="writer-wrapper">
+                    <i class="fa-solid fa-feather"></i>
+                    <a href="" id="latest-writer" style="text-decoration: none;">Cryptic</a>
+                    <h4 id="read-dur">10 mins read</h4>
+                </div>  
+                <a href="#" id="latest-title" style="text-decoration: none;">Top 10 Telegram Crypto Games You Need To Know In 2024!</a>
+                <h3 id="latest-descrip">Discover the top 10 Telegram crypto games in 2024, including Notcoin, Hamster Kombat, Catizen, and more...</h3>
+                <div id="more-wrapper">
+                    <a href="#" id="read-more" style="text-decoration: none;">Read More</a>
+                    <h3>Sep.23, 2024</h3>
+                </div>
+            </div>
+            <div id="news-wrapper">
+                <img id="latest-img" src="not-pixel.png">
+                <div id="writer-wrapper">
+                    <i class="fa-solid fa-feather"></i>
+                    <a href="" id="latest-writer" style="text-decoration: none;">Cryptic</a>
+                    <h4 id="read-dur">8 mins read</h4>
+                </div>  
+                <a href="#" id="latest-title" style="text-decoration: none;">What Is Not Pixel (PX): How to Play New Notcoin Game?</a>
+                <h3 id="latest-descrip">The latest and third addition to the Notcoin ecosystem, building on the foundation laid by earlier projects like Lost Dogs...</h3>
+                <div id="more-wrapper">
+                    <a href="#" id="read-more" style="text-decoration: none;">Read More</a>
+                    <h3>Sep.25, 2024</h3>
+                </div>
+            </div>
+            <div id="news-wrapper">
+                <img id="latest-img" src="catizen.jpg">
+                <div id="writer-wrapper">
+                    <i class="fa-solid fa-feather"></i>
+                    <a href="" id="latest-writer" style="text-decoration: none;">Cryptic</a>
+                    <h4 id="read-dur">10 mins read</h4>
+                </div>  
+                <a href="#" id="latest-title" style="text-decoration: none;">Catizen Guide: Stake and Earn $CATI Amid the Token Launch</a>
+                <h3 id="latest-descrip">Catizen is a comprehensive social and entertainment platform within the TON ecosystem...</h3>
+                <div id="more-wrapper">
+                    <a href="#" id="read-more" style="text-decoration: none;">Read More</a>
+                    <h3>Sep.29, 2024</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
